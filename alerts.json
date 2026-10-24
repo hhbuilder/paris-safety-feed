@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-24T21:10:00Z",
+  "alerts": [
+    {
+      "id": "paris-curfew-oct",
+      "region": "Paris",
+      "severity": "high",
+      "title": "Night curfew at Republique and Les Halles",
+      "body": "Curfew 11pm-6am through Mon Oct 26 6am. Fine 135 EUR. ID checks possible. Republique, Chatelet and Les Halles metro stations close 10pm on curfew nights.",
+      "starts": "2026-10-21",
+      "ends": "2026-10-26",
+      "ref_url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/10/22/map-of-the-curfews-and-protest-bans-in-france_6761647_8.html"
+    },
+    {
+      "id": "us-embassy-alert-oct19",
+      "region": "France",
+      "severity": "medium",
+      "title": "US Embassy security alert",
+      "body": "Demonstrations expected; avoid large gatherings and monitor local media.",
+      "starts": "2026-10-19",
+      "ends": null,
+      "ref_url": "https://fr.usembassy.gov/security-alert-u-s-embassy-paris-france-october-19-2026/"
+    },
+    {
+      "id": "strike-nov5",
+      "region": "France",
+      "severity": "medium",
+      "title": "National union strike day",
+      "body": "Union strike call including rail unions. Paris march gathers at Republique, ends at Nation; route TBA. Expect transit disruption.",
+      "starts": "2026-11-05",
+      "ends": "2026-11-05",
+      "ref_url": "https://www.ratp.fr/"
+    }
+  ]
+}

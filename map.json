@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-24T21:10:00Z",
+  "zones": [
+    {
+      "id": "republique-curfew",
+      "label": "Place de la Republique",
+      "type": "curfew",
+      "polygon": [[48.8690, 2.3610], [48.8690, 2.3665], [48.8658, 2.3665], [48.8658, 2.3610]],
+      "note": "Night curfew 11pm-6am through Mon Oct 26 6am. Approximate area.",
+      "ref_url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/10/22/map-of-the-curfews-and-protest-bans-in-france_6761647_8.html"
+    },
+    {
+      "id": "les-halles-curfew",
+      "label": "Chatelet-Les Halles",
+      "type": "curfew",
+      "polygon": [[48.8640, 2.3440], [48.8640, 2.3510], [48.8600, 2.3510], [48.8600, 2.3440]],
+      "note": "Night curfew 11pm-6am through Mon Oct 26 6am (Rue Berger, Rue Rambuteau, Bd de Sebastopol section). Approximate area.",
+      "ref_url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/10/22/map-of-the-curfews-and-protest-bans-in-france_6761647_8.html"
+    },
+    {
+      "id": "bastille-avoid",
+      "label": "Place de la Bastille",
+      "type": "avoid",
+      "polygon": [[48.8548, 2.3670], [48.8548, 2.3715], [48.8516, 2.3715], [48.8516, 2.3670]],
+      "note": "Frequent rally point; banned gatherings reported Oct 24. Approximate area.",
+      "ref_url": "https://www.prefecturedepolice.interieur.gouv.fr/"
+    }
+  ]
+}
