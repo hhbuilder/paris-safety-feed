@@ -1,36 +1,66 @@
 {
-  "version": 1,
-  "updated_at": "2026-10-24T21:10:00Z",
+  "version": 2,
+  "updated_at": "2026-10-28T13:10:00Z",
   "alerts": [
     {
-      "id": "paris-curfew-oct",
+      "id": "paris-gathering-ban-oct",
       "region": "Paris",
-      "severity": "high",
-      "title": "Night curfew at Republique and Les Halles",
-      "body": "Curfew 11pm-6am through Mon Oct 26 6am. Fine 135 EUR. ID checks possible. Republique, Chatelet and Les Halles metro stations close 10pm on curfew nights.",
-      "starts": "2026-10-21",
-      "ends": "2026-10-26",
-      "ref_url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/10/22/map-of-the-curfews-and-protest-bans-in-france_6761647_8.html"
+      "severity": "medium",
+      "title": "Night gathering ban in central Paris",
+      "body": "Adult curfew at Republique ended Tue Oct 27 6am. Undeclared gatherings banned 8pm-6am, and a 9pm-6am curfew for unaccompanied minors, through Thu Oct 29 6am near the Elysee, Assemblee nationale, Senate, Champs-Elysees, Vendome, Chatelet, Republique, Bastille and main rail stations. Extensions possible.",
+      "starts": "2026-10-26",
+      "ends": "2026-10-29",
+      "ref_url": "https://www.leparisien.fr/paris-75/paris-la-prefecture-de-police-reconduit-le-couvre-feu-mais-sur-une-zone-plus-restreinte-26-10-2026-64SCUR2LONHJRLVLFYCSBWIHGU.php"
     },
     {
-      "id": "us-embassy-alert-oct19",
+      "id": "us-embassy-alert-oct22",
       "region": "France",
       "severity": "medium",
       "title": "US Embassy security alert",
-      "body": "Demonstrations expected; avoid large gatherings and monitor local media.",
-      "starts": "2026-10-19",
+      "body": "Violent protests and rioting may continue. Avoid demonstrations, crowds and police activity; check curfew notices, RATP and SNCF updates. US advisory Level 2.",
+      "starts": "2026-10-22",
       "ends": null,
-      "ref_url": "https://fr.usembassy.gov/security-alert-u-s-embassy-paris-france-october-19-2026/"
+      "ref_url": "https://fr.usembassy.gov/security-alert-u-s-embassy-paris-france-october-22-2026/"
+    },
+    {
+      "id": "yellow-vest-oct30-31",
+      "region": "Paris",
+      "severity": "medium",
+      "title": "Yellow vest protests",
+      "body": "Pot-banging protest Fri Oct 30 and Acte III sit-in Sat Oct 31 at the Assemblee nationale, plus local actions.",
+      "starts": "2026-10-30",
+      "ends": "2026-10-31",
+      "ref_url": "https://www.tf1info.fr/societe/acte-iii-greve-du-5-novembre-manifestation-des-retraites-quelles-sont-les-dates-des-prochaines-mobilisations-2471984.html"
+    },
+    {
+      "id": "student-march-nov3",
+      "region": "Paris",
+      "severity": "medium",
+      "title": "Student march",
+      "body": "High school and university students march from the Pantheon at 2pm toward the Medef headquarters. Recent student marches saw clashes.",
+      "starts": "2026-11-03",
+      "ends": "2026-11-03",
+      "ref_url": "https://www.leparisien.fr/paris-75/colere-lyceenne-une-nouvelle-manifestation-prevue-le-3-novembre-un-parcours-entre-pantheon-et-le-siege-du-medef-declare-28-10-2026-HL3T653SCRH4LCOQQJ62SG66JA.php"
     },
     {
       "id": "strike-nov5",
       "region": "France",
-      "severity": "medium",
+      "severity": "high",
       "title": "National union strike day",
-      "body": "Union strike call including rail unions. Paris march gathers at Republique, ends at Nation; route TBA. Expect transit disruption.",
+      "body": "Intersyndicale strike and march day. All four SNCF rail unions call a strike (mainline, regional and RER trains). No specific RATP metro notice yet. Rail plan due the evening before. Paris march route TBA.",
       "starts": "2026-11-05",
       "ends": "2026-11-05",
-      "ref_url": "https://www.ratp.fr/"
+      "ref_url": "https://www.cheminotcgt.fr/wp-content/uploads/2026/10/20261027_appel_unitaire.pdf"
+    },
+    {
+      "id": "retirees-march-nov19",
+      "region": "Paris",
+      "severity": "low",
+      "title": "National retirees' march",
+      "body": "Rally 11am at Gare Montparnasse, march to Les Invalides at 1pm.",
+      "starts": "2026-11-19",
+      "ends": "2026-11-19",
+      "ref_url": "https://www.tf1info.fr/societe/acte-iii-greve-du-5-novembre-manifestation-des-retraites-quelles-sont-les-dates-des-prochaines-mobilisations-2471984.html"
     }
   ]
 }

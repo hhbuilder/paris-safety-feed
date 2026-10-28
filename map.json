@@ -1,30 +1,46 @@
 {
-  "version": 1,
-  "updated_at": "2026-10-24T21:10:00Z",
+  "version": 2,
+  "updated_at": "2026-10-28T13:10:00Z",
   "zones": [
     {
-      "id": "republique-curfew",
+      "id": "republique-avoid",
       "label": "Place de la Republique",
-      "type": "curfew",
+      "type": "avoid",
       "polygon": [[48.8690, 2.3610], [48.8690, 2.3665], [48.8658, 2.3665], [48.8658, 2.3610]],
-      "note": "Night curfew 11pm-6am through Mon Oct 26 6am. Approximate area.",
-      "ref_url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/10/22/map-of-the-curfews-and-protest-bans-in-france_6761647_8.html"
+      "note": "Adult curfew ended Tue Oct 27 6am. Undeclared gatherings banned 8pm-6am through Thu Oct 29 6am; minors' curfew 9pm-6am same period. Frequent rally point. Approximate area.",
+      "ref_url": "https://www.leparisien.fr/paris-75/paris-la-prefecture-de-police-reconduit-le-couvre-feu-mais-sur-une-zone-plus-restreinte-26-10-2026-64SCUR2LONHJRLVLFYCSBWIHGU.php"
     },
     {
-      "id": "les-halles-curfew",
+      "id": "chatelet-avoid",
       "label": "Chatelet-Les Halles",
-      "type": "curfew",
+      "type": "avoid",
       "polygon": [[48.8640, 2.3440], [48.8640, 2.3510], [48.8600, 2.3510], [48.8600, 2.3440]],
-      "note": "Night curfew 11pm-6am through Mon Oct 26 6am (Rue Berger, Rue Rambuteau, Bd de Sebastopol section). Approximate area.",
-      "ref_url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/10/22/map-of-the-curfews-and-protest-bans-in-france_6761647_8.html"
+      "note": "Curfew lifted. Undeclared gatherings banned 8pm-6am through Thu Oct 29 6am. Approximate area.",
+      "ref_url": "https://www.leparisien.fr/paris-75/paris-la-prefecture-de-police-reconduit-le-couvre-feu-mais-sur-une-zone-plus-restreinte-26-10-2026-64SCUR2LONHJRLVLFYCSBWIHGU.php"
     },
     {
       "id": "bastille-avoid",
       "label": "Place de la Bastille",
       "type": "avoid",
       "polygon": [[48.8548, 2.3670], [48.8548, 2.3715], [48.8516, 2.3715], [48.8516, 2.3670]],
-      "note": "Frequent rally point; banned gatherings reported Oct 24. Approximate area.",
-      "ref_url": "https://www.prefecturedepolice.interieur.gouv.fr/"
+      "note": "Frequent rally point. Undeclared gatherings banned 8pm-6am through Thu Oct 29 6am. Approximate area.",
+      "ref_url": "https://www.leparisien.fr/paris-75/paris-la-prefecture-de-police-reconduit-le-couvre-feu-mais-sur-une-zone-plus-restreinte-26-10-2026-64SCUR2LONHJRLVLFYCSBWIHGU.php"
+    },
+    {
+      "id": "assemblee-avoid",
+      "label": "Assemblee nationale",
+      "type": "avoid",
+      "polygon": [[48.8635, 2.3150], [48.8635, 2.3215], [48.8605, 2.3215], [48.8605, 2.3150]],
+      "note": "Pot-banging protest called Fri Oct 30 and sit-in Sat Oct 31. Approximate area.",
+      "ref_url": "https://www.tf1info.fr/societe/acte-iii-greve-du-5-novembre-manifestation-des-retraites-quelles-sont-les-dates-des-prochaines-mobilisations-2471984.html"
+    },
+    {
+      "id": "pantheon-avoid",
+      "label": "Pantheon",
+      "type": "avoid",
+      "polygon": [[48.8478, 2.3440], [48.8478, 2.3490], [48.8446, 2.3490], [48.8446, 2.3440]],
+      "note": "Student march assembles here Tue Nov 3 at 2pm. Approximate area.",
+      "ref_url": "https://www.leparisien.fr/paris-75/colere-lyceenne-une-nouvelle-manifestation-prevue-le-3-novembre-un-parcours-entre-pantheon-et-le-siege-du-medef-declare-28-10-2026-HL3T653SCRH4LCOQQJ62SG66JA.php"
     }
   ]
 }
