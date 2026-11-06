@@ -1,66 +1,76 @@
 {
-  "version": 2,
-  "updated_at": "2026-10-28T13:10:00Z",
+  "version": 3,
+  "updated_at": "2026-11-06T14:10:00Z",
   "alerts": [
     {
-      "id": "paris-gathering-ban-oct",
-      "region": "Paris",
-      "severity": "medium",
-      "title": "Night gathering ban in central Paris",
-      "body": "Adult curfew at Republique ended Tue Oct 27 6am. Undeclared gatherings banned 8pm-6am, and a 9pm-6am curfew for unaccompanied minors, through Thu Oct 29 6am near the Elysee, Assemblee nationale, Senate, Champs-Elysees, Vendome, Chatelet, Republique, Bastille and main rail stations. Extensions possible.",
-      "starts": "2026-10-26",
-      "ends": "2026-10-29",
-      "ref_url": "https://www.leparisien.fr/paris-75/paris-la-prefecture-de-police-reconduit-le-couvre-feu-mais-sur-une-zone-plus-restreinte-26-10-2026-64SCUR2LONHJRLVLFYCSBWIHGU.php"
-    },
-    {
-      "id": "us-embassy-alert-oct22",
+      "id": "us-advisory-level2",
       "region": "France",
       "severity": "medium",
-      "title": "US Embassy security alert",
-      "body": "Violent protests and rioting may continue. Avoid demonstrations, crowds and police activity; check curfew notices, RATP and SNCF updates. US advisory Level 2.",
-      "starts": "2026-10-22",
+      "title": "US Level 2 advisory and embassy alert",
+      "body": "State Department Level 2 (exercise increased caution) for terrorism and unrest, last updated Oct 21. US Embassy Paris issued a Nov 4 security alert on the Nov 5 nationwide strike and possible weekend demonstrations. Avoid demonstrations, crowds and police activity.",
+      "starts": "2026-10-21",
       "ends": null,
-      "ref_url": "https://fr.usembassy.gov/security-alert-u-s-embassy-paris-france-october-22-2026/"
+      "ref_url": "https://travel.state.gov/en/international-travel/travel-advisories/destination.fra.html"
     },
     {
-      "id": "yellow-vest-oct30-31",
-      "region": "Paris",
-      "severity": "medium",
-      "title": "Yellow vest protests",
-      "body": "Pot-banging protest Fri Oct 30 and Acte III sit-in Sat Oct 31 at the Assemblee nationale, plus local actions.",
-      "starts": "2026-10-30",
-      "ends": "2026-10-31",
-      "ref_url": "https://www.tf1info.fr/societe/acte-iii-greve-du-5-novembre-manifestation-des-retraites-quelles-sont-les-dates-des-prochaines-mobilisations-2471984.html"
-    },
-    {
-      "id": "student-march-nov3",
-      "region": "Paris",
-      "severity": "medium",
-      "title": "Student march",
-      "body": "High school and university students march from the Pantheon at 2pm toward the Medef headquarters. Recent student marches saw clashes.",
-      "starts": "2026-11-03",
-      "ends": "2026-11-03",
-      "ref_url": "https://www.leparisien.fr/paris-75/colere-lyceenne-une-nouvelle-manifestation-prevue-le-3-novembre-un-parcours-entre-pantheon-et-le-siege-du-medef-declare-28-10-2026-HL3T653SCRH4LCOQQJ62SG66JA.php"
-    },
-    {
-      "id": "strike-nov5",
+      "id": "vigipirate-vigilance",
       "region": "France",
-      "severity": "high",
-      "title": "National union strike day",
-      "body": "Intersyndicale strike and march day. All four SNCF rail unions call a strike (mainline, regional and RER trains). No specific RATP metro notice yet. Rail plan due the evening before. Paris march route TBA.",
+      "severity": "medium",
+      "title": "Vigipirate still elevated",
+      "body": "National terror plan remains at Vigilance renforcee (intermediate level) across France.",
+      "starts": "2026-10-01",
+      "ends": null,
+      "ref_url": "https://www.info.gouv.fr/risques/le-plan-vigipirate"
+    },
+    {
+      "id": "strike-nov5-outcome",
+      "region": "France",
+      "severity": "medium",
+      "title": "Nov 5 national strike day — outcome",
+      "body": "Interior Ministry: about 575,000 protesters nationwide (about 60,000 in Paris); CGT claimed near 1.6 million. Largely peaceful authorized marches; 448 arrests and 53 officers injured by 6pm, with clashes in cities such as Lyon. Rail and some schools disrupted that day; no new national interprofessional strike date confirmed afterward.",
       "starts": "2026-11-05",
       "ends": "2026-11-05",
-      "ref_url": "https://www.cheminotcgt.fr/wp-content/uploads/2026/10/20261027_appel_unitaire.pdf"
+      "ref_url": "https://www.france24.com/en/france/20261105-france-workers-strike-march-for-dignified-wage"
+    },
+    {
+      "id": "follow-on-nov7",
+      "region": "Paris",
+      "severity": "medium",
+      "title": "Nov 7 follow-on marches",
+      "body": "Yellow-vest Acte IV called for Saturday afternoon actions, including a Concorde gathering from 2pm. SNES-FSU also called educators to join Saturday demos. CGT says mobilisation continues but has not set a new national strike day. Social conference with unions planned Mon Nov 9.",
+      "starts": "2026-11-07",
+      "ends": "2026-11-07",
+      "ref_url": "https://www.politiquematin.fr/conference-sociale-cgt-snes-fsu-mobilisation-7-novembre-2026"
+    },
+    {
+      "id": "gj-nov14",
+      "region": "France",
+      "severity": "low",
+      "title": "Nov 14 youth and yellow-vest actions",
+      "body": "Yellow-vest coordination and youth/climate groups call Saturday Nov 14 actions (Acte V framing). Local routes may be declared closer to the date.",
+      "starts": "2026-11-14",
+      "ends": "2026-11-14",
+      "ref_url": "https://actu.fr/societe/apres-la-greve-du-5-novembre-les-mobilisations-se-poursuivent-tous-les-mouvements-a-venir-ces-prochains-jours_65020177.html"
     },
     {
       "id": "retirees-march-nov19",
       "region": "Paris",
       "severity": "low",
       "title": "National retirees' march",
-      "body": "Rally 11am at Gare Montparnasse, march to Les Invalides at 1pm.",
+      "body": "Rally 11am at Montparnasse station area, march toward Les Invalides around 1pm.",
       "starts": "2026-11-19",
       "ends": "2026-11-19",
       "ref_url": "https://www.tf1info.fr/societe/acte-iii-greve-du-5-novembre-manifestation-des-retraites-quelles-sont-les-dates-des-prochaines-mobilisations-2471984.html"
+    },
+    {
+      "id": "europe-cost-nov20-22",
+      "region": "France",
+      "severity": "low",
+      "title": "European cost-of-living actions Nov 20-22",
+      "body": "Housing and cost-of-living groups from several European countries called coordinated demonstrations Nov 20-22. French city routes not yet fully published.",
+      "starts": "2026-11-20",
+      "ends": "2026-11-22",
+      "ref_url": "https://actu.fr/societe/apres-la-greve-du-5-novembre-les-mobilisations-se-poursuivent-tous-les-mouvements-a-venir-ces-prochains-jours_65020177.html"
     }
   ]
 }
